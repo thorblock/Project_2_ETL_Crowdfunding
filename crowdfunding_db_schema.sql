@@ -2,8 +2,8 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 CREATE TABLE category (
-    category_id VARCHAR   NOT NULL,
-    category VARCHAR   NOT NULL,
+    category_id VARCHAR(10)   NOT NULL,
+    category VARCHAR(100)   NOT NULL,
     PRIMARY KEY (category_id)
 );
 
